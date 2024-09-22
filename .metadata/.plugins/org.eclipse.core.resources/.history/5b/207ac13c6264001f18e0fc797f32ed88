@@ -1,0 +1,36 @@
+package Locators;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Assignment2_UiDropdownsEditBoxesErrorValidations {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://rahulshettyacademy.com/angularpractice/");
+		Thread.sleep(2000);
+		
+		//Entering name
+		driver.findElement(By.xpath("//div[@class='form-group']/child::input[@name='name']")).sendKeys("SM");
+		Thread.sleep(2000);
+		
+		//Entering email
+		driver.findElement(By.xpath("//div[@class='form-group']/child::input[@name='email']")).sendKeys("SM@sm.com");
+		Thread.sleep(2000);
+		
+		//Entering password
+//		driver.findElement(By.xpath("//div[@class='form-group']/child::input[@placeholder='Password']")).sendKeys("SM");
+		driver.findElement(By.id("exampleInputPassword1")).sendKeys("SM");
+		Thread.sleep(2000);
+		
+		// Checking the checkbox
+		driver.findElement(By.id("exampleCheck1")).click();
+		
+		Thread.sleep(3000);
+		driver.quit();
+	}
+
+}

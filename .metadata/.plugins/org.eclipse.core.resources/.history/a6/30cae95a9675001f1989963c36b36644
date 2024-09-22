@@ -1,0 +1,10 @@
+package Waits;
+
+public class B_ProceedToCheckoutAndEnterPromoCode {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
