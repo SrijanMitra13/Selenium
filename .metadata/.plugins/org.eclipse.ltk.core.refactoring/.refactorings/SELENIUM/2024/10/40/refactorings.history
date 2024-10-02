@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;AjaxCalls_ChildWindows_iFrames.Actions.java&apos; to &apos;ActionsDemo.java&apos;&#x0A;- Original project: &apos;SELENIUM&apos;&#x0A;- Original element: &apos;AjaxCalls_ChildWindows_iFrames.Actions.java&apos;&#x0A;- Renamed element: &apos;AjaxCalls_ChildWindows_iFrames.ActionsDemo.java&apos;" description="Rename compilation unit &apos;Actions.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;AjaxCalls_ChildWindows_iFrames{Actions.java" name="ActionsDemo.java" references="false" stamp="1727813764832" version="1.0"/>
+</session>
