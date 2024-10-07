@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;AjaxCalls_ChildWindows_iFrames.C_Frames&apos; to &apos;C_Frames_DragNDrop&apos;&#x0A;- Original project: &apos;SELENIUM&apos;&#x0A;- Original element: &apos;AjaxCalls_ChildWindows_iFrames.C_Frames&apos;&#x0A;- Renamed element: &apos;AjaxCalls_ChildWindows_iFrames.C_Frames_DragNDrop&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;C_Frames&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;AjaxCalls_ChildWindows_iFrames{C_Frames.java[C_Frames" matchStrategy="1" name="C_Frames_DragNDrop" qualified="false" references="true" similarDeclarations="false" stamp="1728329510055" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,10 @@
+package AjaxCalls_ChildWindows_iFrames;
+
+public class C_Frames {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
