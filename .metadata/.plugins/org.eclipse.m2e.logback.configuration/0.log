@@ -6514,3 +6514,35 @@ org.eclipse.core.runtime.CoreException: Launch configuration AutoSuggestiveDropd
 2024-10-18 01:34:37,324 [Worker-362: Launching Assignment7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/main/resources
 2024-10-18 01:34:37,326 [Worker-362: Launching Assignment7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2024-10-18 01:34:37,327 [Worker-362: Launching Assignment7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/test/resources
+2024-10-21 16:57:52,514 [Worker-392: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-21 16:57:52,529 [Worker-392: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/main/resources
+2024-10-21 16:57:52,530 [Worker-392: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-21 16:57:52,531 [Worker-392: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/test/resources
+2024-10-21 17:42:27,780 [Worker-395: Launching Assignment8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-21 17:42:27,784 [Worker-395: Launching Assignment8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/main/resources
+2024-10-21 17:42:27,788 [Worker-395: Launching Assignment8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-21 17:42:27,789 [Worker-395: Launching Assignment8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/test/resources
+2024-10-21 17:45:15,668 [Worker-399: Launching Assignment8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-21 17:45:15,676 [Worker-399: Launching Assignment8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/main/resources
+2024-10-21 17:45:15,677 [Worker-399: Launching Assignment8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-21 17:45:15,677 [Worker-399: Launching Assignment8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/test/resources
+2024-10-21 17:55:12,531 [Worker-401: Launching Assignment8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-21 17:55:12,540 [Worker-401: Launching Assignment8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/main/resources
+2024-10-21 17:55:12,546 [Worker-401: Launching Assignment8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-21 17:55:12,546 [Worker-401: Launching Assignment8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/test/resources
+2024-10-22 00:07:32,595 [Worker-419: Launching Assignment8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 00:07:32,613 [Worker-419: Launching Assignment8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/main/resources
+2024-10-22 00:07:32,615 [Worker-419: Launching Assignment8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 00:07:32,615 [Worker-419: Launching Assignment8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/test/resources
+2024-10-22 00:12:17,365 [Worker-419: Launching Assignment8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 00:12:17,373 [Worker-419: Launching Assignment8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/main/resources
+2024-10-22 00:12:17,374 [Worker-419: Launching Assignment8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 00:12:17,375 [Worker-419: Launching Assignment8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/test/resources
+2024-10-22 00:13:14,337 [Worker-426: Launching Assignment8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 00:13:14,340 [Worker-426: Launching Assignment8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/main/resources
+2024-10-22 00:13:14,342 [Worker-426: Launching Assignment8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 00:13:14,343 [Worker-426: Launching Assignment8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/test/resources
+2024-10-22 00:15:06,049 [Worker-426: Launching Assignment8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 00:15:06,056 [Worker-426: Launching Assignment8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/main/resources
+2024-10-22 00:15:06,057 [Worker-426: Launching Assignment8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 00:15:06,057 [Worker-426: Launching Assignment8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/test/resources
