@@ -1,0 +1,10 @@
+package JavaStreams_AutomateSort_Pagination_FilteringWebTables;
+
+public class C_FilterWebTable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
