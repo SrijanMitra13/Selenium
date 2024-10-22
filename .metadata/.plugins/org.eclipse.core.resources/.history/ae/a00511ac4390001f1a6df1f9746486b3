@@ -1,0 +1,31 @@
+package JavaStreams_AutomateSort_Pagination_FilteringWebTables;
+
+import java.util.ArrayList;
+import java.util.stream.Stream;
+
+public class A_JavaStreams {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<String> names = new ArrayList<String>();
+		names.add("Abhijeet");
+		names.add("Don");
+		names.add("Alakhya");
+		names.add("Adam");
+		names.add("Ram");
+		
+		//Count the number of names that starts with A
+		long c = names.stream().filter(s->s.startsWith("A")).count();
+		System.out.println(c);
+		
+		//Counting the number of names that starts with A without creating a collection
+		long d = Stream.of("Abhijeet","Don","Alakhya","Adam","Ram").filter(s->
+		{
+			return s.startsWith("A");
+			
+		}).count();
+		System.out.println(d);
+		
+	}
+
+}
