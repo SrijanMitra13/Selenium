@@ -1,6 +1,6 @@
 package Interface;
 
-public class AustralianTraffic implements CentralTraffic{
+public class AustralianTraffic implements CentralTraffic, ContinentalTraffic{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -8,10 +8,13 @@ public class AustralianTraffic implements CentralTraffic{
 		ct.greenGo();
 		ct.redStop();
 		ct.flashYellow();
-//		walkOnSymbol();
+		walkOnSymbol();
 		
-		AustralianTraffic at = new AustralianTraffic();
-		at.walkOnSymbol();
+//		AustralianTraffic at = new AustralianTraffic();
+//		at.walkOnSymbol();
+		
+		ContinentalTraffic cntr = new AustralianTraffic();
+		cntr.TrainSymbol();
 		
 	}
 
@@ -33,8 +36,15 @@ public class AustralianTraffic implements CentralTraffic{
 		System.out.println("flashingYellow implementation");		
 	}
 	
-	public void walkOnSymbol() {
+	public static void walkOnSymbol() {
 		System.out.println("walking");
+	}
+
+	@Override
+	public void TrainSymbol() {
+		// TODO Auto-generated method stub
+		System.out.println("TrainSymbol implementation");
+		
 	}
 
 }
