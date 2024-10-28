@@ -6814,3 +6814,11 @@ org.eclipse.core.runtime.CoreException: Launch configuration AutoSuggestiveDropd
 2024-10-23 01:48:33,035 [Worker-697: Launching C_FilterWebTable] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/main/resources
 2024-10-23 01:48:33,036 [Worker-697: Launching C_FilterWebTable] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2024-10-23 01:48:33,036 [Worker-697: Launching C_FilterWebTable] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/test/resources
+2024-10-28 13:59:25,978 [Worker-990: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-28 13:59:25,995 [Worker-990: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/main/resources
+2024-10-28 13:59:26,000 [Worker-990: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-28 13:59:26,001 [Worker-990: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/test/resources
+2024-10-28 14:00:11,378 [Worker-988: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-28 14:00:11,383 [Worker-988: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/main/resources
+2024-10-28 14:00:11,384 [Worker-988: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-28 14:00:11,384 [Worker-988: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/test/resources

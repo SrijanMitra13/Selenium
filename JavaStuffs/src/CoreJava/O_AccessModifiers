@@ -1,0 +1,12 @@
+Types of Access Modifiers:
+	. Public
+	. Private
+	. Protected
+	. Default
+	
+	
+Default: 	Access method anywhere only in package
+Public:  	Access across all packages
+Private: 	Can not access method outside the class
+Protected: 	Can be accessed in sub classes only (child classes extending the parent class)
+

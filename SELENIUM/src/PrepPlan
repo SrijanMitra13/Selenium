@@ -1,0 +1,72 @@
+Here’s a structured 1-month plan to learn Java Selenium as a beginner. It breaks down the learning into weekly goals, assuming you can spend around 1-2 hours a day. This plan balances Java fundamentals with practical Selenium knowledge.
+
+Week 1: Java Basics
+
+	1.	Day 1-2: Introduction to Java
+	•	Install Java and an IDE (Eclipse or IntelliJ IDEA).
+	•	Learn about the JVM, JDK, and JRE.
+	•	Understand how to create, compile, and run Java programs.
+	2.	Day 3-5: Core Java Syntax
+	•	Variables, data types, operators.
+	•	Conditional statements (if, else, switch).
+	•	Loops (for, while, do-while).
+	3.	Day 6-7: Object-Oriented Programming (OOP) Basics
+	•	Classes and objects.
+	•	Methods, constructors, and method overloading.
+Practice: Write basic programs to solidify your understanding, like a simple calculator or number guesser.
+
+Week 2: Advanced Java Concepts and Basic Selenium Setup
+
+	1.	Day 8-9: OOP Advanced
+	•	Inheritance, polymorphism, and encapsulation.
+	•	Abstract classes and interfaces.
+	2.	Day 10-11: Exception Handling
+	•	Try, catch, finally, throw, throws.
+	•	Understand how to handle exceptions in Java programs.
+	3.	Day 12-13: Collections Framework
+	•	Learn about List, Set, and Map.
+	•	Practice with ArrayList and HashMap.
+	4.	Day 14: Setting Up Selenium
+	•	Install WebDriver, set up Maven/Gradle, and configure the browser driver (ChromeDriver/GeckoDriver).
+	•	Understand the WebDriver interface and basic Selenium setup.
+Practice: Write a basic program to open a browser and navigate to a URL using Selenium.
+
+Week 3: Selenium WebDriver Basics
+
+	1.	Day 15-16: Locators and Navigation
+	•	Learn about locators: id, name, className, tagName, CSS selector, XPath.
+	•	Write scripts to navigate through a webpage, fill forms, and click buttons.
+	2.	Day 17-18: Interacting with Web Elements
+	•	Find and interact with text boxes, dropdowns, radio buttons, checkboxes.
+	•	Write tests to automate form submissions.
+	3.	Day 19: Handling Alerts, Windows, and Frames
+	•	Learn to handle JavaScript alerts.
+	•	Switch between windows and frames.
+	4.	Day 20-21: Synchronization in Selenium
+	•	Implicit and Explicit Wait.
+	•	Use WebDriverWait to handle dynamic content.
+Practice: Write scripts that handle different types of user interactions on a sample website, like form submissions or navigation.
+
+Week 4: Advanced Selenium Concepts and Test Automation Framework
+
+	1.	Day 22-23: Data-Driven Testing
+	•	Use Excel, CSV, or JSON files to read input data for your tests.
+	•	Use TestNG to run data-driven tests.
+	2.	Day 24-25: Handling Browser Cookies and Screenshots
+	•	Learn how to manage cookies.
+	•	Capture screenshots of test failures.
+	3.	Day 26-27: Framework Introduction (Cucumber BDD or TestNG)
+	•	Write tests using Cucumber with Gherkin syntax for BDD (if you’re familiar with BDD).
+	•	Set up TestNG to run multiple tests and generate reports.
+	4.	Day 28-30: Build a Mini Project
+	•	Automate a real-world scenario such as logging into a website, performing actions, and verifying results.
+	•	Structure your tests using Page Object Model (POM) for better maintenance.
+Bonus: If time permits, set up the automation in a CI/CD pipeline (like Jenkins).
+
+Tools & Resources:
+
+	•	IDE: Eclipse, IntelliJ IDEA.
+	•	Build Tool: Maven/Gradle.
+	•	Libraries: Selenium WebDriver, TestNG, Apache POI (for Excel handling), or Cucumber.
+
+This plan will give you a solid foundation in both Java and Selenium WebDriver, enabling you to build your own automated test cases by the end of the month.
