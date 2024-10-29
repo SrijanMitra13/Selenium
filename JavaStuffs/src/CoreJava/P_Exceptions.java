@@ -38,6 +38,10 @@ public class P_Exceptions {
 		} catch(Exception e) {
 			System.out.println("I catched the exception");
 		}
+		finally{
+			//This block is executed irrespective of exception thrown or not.
+			System.out.println("Delete Cookies");
+		}
 	}
 
 }
