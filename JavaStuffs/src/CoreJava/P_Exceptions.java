@@ -40,6 +40,7 @@ public class P_Exceptions {
 		}
 		finally{
 			//This block is executed irrespective of exception thrown or not.
+			//Finally block will not execute when JVM is stopped forcefully
 			System.out.println("Delete Cookies");
 		}
 	}
