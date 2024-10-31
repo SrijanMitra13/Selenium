@@ -19,7 +19,8 @@ public class ArrayLists {
 		/*
 		al.remove(1);
 		al.remove("java");
-		System.out.println(al);*/
+		System.out.println(al);
+		*/
 		
 		System.out.println(al.get(2));
 		System.out.println(al.contains("testing"));

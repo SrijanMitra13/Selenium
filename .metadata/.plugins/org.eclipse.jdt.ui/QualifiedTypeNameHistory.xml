@@ -37,7 +37,6 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="org.testng.asserts.SoftAssert"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.stream.Stream"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="CoreJava.L_ThisKeyWordDemo"/>
     <fullyQualifiedTypeName name="CoreJava.M_StaticVar"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

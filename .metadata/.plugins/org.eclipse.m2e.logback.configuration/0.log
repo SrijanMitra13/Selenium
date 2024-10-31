@@ -6824,3 +6824,4 @@ org.eclipse.core.runtime.CoreException: Launch configuration AutoSuggestiveDropd
 2024-10-28 14:00:11,384 [Worker-988: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/srijanmitra/Codes/Selenium/SELENIUM/src/test/resources
 2024-10-28 14:21:27,344 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2024-10-29 01:25:24,780 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-30 02:48:01,392 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
