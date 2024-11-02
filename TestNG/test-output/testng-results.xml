@@ -1,63 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="2" total="11" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-02T13:41:04 IST" name="Loan Department" finished-at="2024-11-02T13:41:04 IST" duration-ms="117">
+  <suite started-at="2024-11-02T15:39:24 IST" name="Loan Department" finished-at="2024-11-02T15:39:24 IST" duration-ms="226">
     <groups>
     </groups>
-    <test started-at="2024-11-02T13:41:04 IST" name="Personal Loan" finished-at="2024-11-02T13:41:04 IST" duration-ms="117">
+    <test started-at="2024-11-02T15:39:24 IST" name="Personal Loan" finished-at="2024-11-02T15:39:24 IST" duration-ms="75">
       <class name="A_Test.Basics4">
-        <test-method signature="LoginAPICarLoan()[pri:0, instance:A_Test.Basics4@48974e45]" started-at="2024-11-02T13:41:04 IST" name="LoginAPICarLoan" finished-at="2024-11-02T13:41:04 IST" duration-ms="2" status="PASS">
+        <test-method signature="LoginAPICarLoan()[pri:0, instance:A_Test.Basics4@7e5afaa6]" started-at="2024-11-02T15:39:24 IST" name="LoginAPICarLoan" finished-at="2024-11-02T15:39:24 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAPICarLoan -->
-        <test-method signature="mobileLoginCarLoan()[pri:0, instance:A_Test.Basics4@48974e45]" started-at="2024-11-02T13:41:04 IST" name="mobileLoginCarLoan" finished-at="2024-11-02T13:41:04 IST" duration-ms="2" status="PASS">
+        <test-method signature="mobileLoginCarLoan()[pri:0, instance:A_Test.Basics4@7e5afaa6]" started-at="2024-11-02T15:39:24 IST" name="mobileLoginCarLoan" finished-at="2024-11-02T15:39:24 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileLoginCarLoan -->
-        <test-method signature="webLoginHomeLoan()[pri:0, instance:A_Test.Basics4@48974e45]" started-at="2024-11-02T13:41:04 IST" name="webLoginHomeLoan" finished-at="2024-11-02T13:41:04 IST" duration-ms="0" status="PASS">
+        <test-method signature="webLoginHomeLoan()[pri:0, instance:A_Test.Basics4@7e5afaa6]" started-at="2024-11-02T15:39:24 IST" name="webLoginHomeLoan" finished-at="2024-11-02T15:39:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webLoginHomeLoan -->
       </class> <!-- A_Test.Basics4 -->
-      <class name="A_Test.Basics3">
-        <test-method signature="APICarLoan()[pri:0, instance:A_Test.Basics3@41e1e210]" started-at="2024-11-02T13:41:04 IST" name="APICarLoan" finished-at="2024-11-02T13:41:04 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- APICarLoan -->
-        <test-method signature="mobileLoginCarLoan()[pri:0, instance:A_Test.Basics3@41e1e210]" started-at="2024-11-02T13:41:04 IST" name="mobileLoginCarLoan" finished-at="2024-11-02T13:41:04 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileLoginCarLoan -->
-        <test-method signature="mobileSignInCarLoan()[pri:0, instance:A_Test.Basics3@41e1e210]" started-at="2024-11-02T13:41:04 IST" name="mobileSignInCarLoan" finished-at="2024-11-02T13:41:04 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileSignInCarLoan -->
-        <test-method signature="mobileSignOutCarLoan()[pri:0, instance:A_Test.Basics3@41e1e210]" started-at="2024-11-02T13:41:04 IST" name="mobileSignOutCarLoan" finished-at="2024-11-02T13:41:04 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileSignOutCarLoan -->
-        <test-method signature="webLoginCarLoan()[pri:0, instance:A_Test.Basics3@41e1e210]" started-at="2024-11-02T13:41:04 IST" name="webLoginCarLoan" finished-at="2024-11-02T13:41:04 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webLoginCarLoan -->
-      </class> <!-- A_Test.Basics3 -->
       <class name="A_Test.Basics">
-        <test-method signature="demo()[pri:0, instance:A_Test.Basics@247d8ae]" started-at="2024-11-02T13:41:04 IST" name="demo" finished-at="2024-11-02T13:41:04 IST" duration-ms="7" status="PASS">
+        <test-method signature="demo()[pri:0, instance:A_Test.Basics@6f46426d]" started-at="2024-11-02T15:39:24 IST" name="demo" finished-at="2024-11-02T15:39:24 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo -->
-        <test-method signature="secondTest()[pri:0, instance:A_Test.Basics@247d8ae]" started-at="2024-11-02T13:41:04 IST" name="secondTest" finished-at="2024-11-02T13:41:04 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="lastExecution()[pri:0, instance:A_Test.Basics@6f46426d]" started-at="2024-11-02T15:39:24 IST" name="lastExecution" finished-at="2024-11-02T15:39:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- secondTest -->
+        </test-method> <!-- lastExecution -->
       </class> <!-- A_Test.Basics -->
       <class name="A_Test.Basics2">
-        <test-method signature="ploan()[pri:0, instance:A_Test.Basics2@15bbf42f]" started-at="2024-11-02T13:41:04 IST" name="ploan" finished-at="2024-11-02T13:41:04 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="prerequesite()[pri:0, instance:A_Test.Basics2@483f6d77]" started-at="2024-11-02T15:39:24 IST" name="prerequesite" finished-at="2024-11-02T15:39:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequesite -->
+        <test-method signature="ploan()[pri:0, instance:A_Test.Basics2@483f6d77]" started-at="2024-11-02T15:39:24 IST" name="ploan" finished-at="2024-11-02T15:39:24 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ploan -->
       </class> <!-- A_Test.Basics2 -->
     </test> <!-- Personal Loan -->
+    <test started-at="2024-11-02T15:39:24 IST" name="Car Loan" finished-at="2024-11-02T15:39:24 IST" duration-ms="34">
+      <class name="A_Test.Basics3">
+        <test-method is-config="true" signature="bfSuite()[pri:0, instance:A_Test.Basics3@6392827e]" started-at="2024-11-02T15:39:24 IST" name="bfSuite" finished-at="2024-11-02T15:39:24 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfSuite -->
+        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:A_Test.Basics3@6392827e]" started-at="2024-11-02T15:39:24 IST" name="beforeEvery" finished-at="2024-11-02T15:39:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEvery -->
+        <test-method signature="mobileLoginCarLoan()[pri:0, instance:A_Test.Basics3@6392827e]" started-at="2024-11-02T15:39:24 IST" name="mobileLoginCarLoan" finished-at="2024-11-02T15:39:24 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCarLoan -->
+        <test-method is-config="true" signature="afterEvery()[pri:0, instance:A_Test.Basics3@6392827e]" started-at="2024-11-02T15:39:24 IST" name="afterEvery" finished-at="2024-11-02T15:39:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEvery -->
+        <test-method signature="mobileSignInCarLoan()[pri:0, instance:A_Test.Basics3@6392827e]" started-at="2024-11-02T15:39:24 IST" name="mobileSignInCarLoan" finished-at="2024-11-02T15:39:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSignInCarLoan -->
+        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:A_Test.Basics3@6392827e]" started-at="2024-11-02T15:39:24 IST" name="beforeEvery" finished-at="2024-11-02T15:39:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEvery -->
+        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:A_Test.Basics3@6392827e]" started-at="2024-11-02T15:39:24 IST" name="beforeEvery" finished-at="2024-11-02T15:39:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEvery -->
+        <test-method is-config="true" signature="afterEvery()[pri:0, instance:A_Test.Basics3@6392827e]" started-at="2024-11-02T15:39:24 IST" name="afterEvery" finished-at="2024-11-02T15:39:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEvery -->
+        <test-method signature="mobileSignOutCarLoan()[pri:0, instance:A_Test.Basics3@6392827e]" started-at="2024-11-02T15:39:24 IST" name="mobileSignOutCarLoan" finished-at="2024-11-02T15:39:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSignOutCarLoan -->
+        <test-method is-config="true" signature="afterEvery()[pri:0, instance:A_Test.Basics3@6392827e]" started-at="2024-11-02T15:39:24 IST" name="afterEvery" finished-at="2024-11-02T15:39:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEvery -->
+        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:A_Test.Basics3@6392827e]" started-at="2024-11-02T15:39:24 IST" name="beforeEvery" finished-at="2024-11-02T15:39:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEvery -->
+        <test-method signature="webLoginCarLoan()[pri:0, instance:A_Test.Basics3@6392827e]" started-at="2024-11-02T15:39:24 IST" name="webLoginCarLoan" finished-at="2024-11-02T15:39:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCarLoan -->
+        <test-method is-config="true" signature="afterEvery()[pri:0, instance:A_Test.Basics3@6392827e]" started-at="2024-11-02T15:39:24 IST" name="afterEvery" finished-at="2024-11-02T15:39:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEvery -->
+      </class> <!-- A_Test.Basics3 -->
+      <class name="A_Test.Basics">
+        <test-method is-config="true" signature="afSuite()[pri:0, instance:A_Test.Basics@6f46426d]" started-at="2024-11-02T15:39:24 IST" name="afSuite" finished-at="2024-11-02T15:39:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afSuite -->
+      </class> <!-- A_Test.Basics -->
+    </test> <!-- Car Loan -->
   </suite> <!-- Loan Department -->
 </testng-results>
