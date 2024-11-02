@@ -3,8 +3,23 @@
 <suite name="Loan Department">
   <test thread-count="5" name="Personal Loan">
     <classes>
-      <class name="A_Test.Basics"/>
+      <class name="A_Test.Basics">
+      		<methods>
+      			<include name="demo"/>
+      		</methods>	
+      </class>
       <class name="A_Test.Basics2"/>
+      <class name="A_Test.Basics4"/>
     </classes>
   </test> <!-- Test -->
+  
+  <test name = "Car Loan">
+  	<classes>
+  		<class name="A_Test.Basics3">
+  			<methods>
+  				<exclude name="mobileLoginCarLoan"/>
+  			</methods>
+  		</class>
+  	</classes>
+  </test>
 </suite> <!-- Suite -->
