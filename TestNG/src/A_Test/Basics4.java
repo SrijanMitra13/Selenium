@@ -9,14 +9,14 @@ public class Basics4 {
 		System.out.println("webloginhome");
 	}
 	
-	@Test
-	public void mobileLoginCarLoan() {
+	@Test(groups= {"Smoke"})
+	public void mobileLoginHomeLoan() {
 		//Appium
 		System.out.println("Mobileloginhome");
 	}
 	
 	@Test
-	public void LoginAPICarLoan() {
+	public void LoginAPIHomeLoan() {
 		//Rest API automation
 		System.out.println("APIloginhome");
 	}

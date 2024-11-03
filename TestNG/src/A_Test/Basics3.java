@@ -1,11 +1,23 @@
 package A_Test;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class Basics3 {
+	@BeforeClass
+	public void beforeClass() {
+		System.out.println("Before executing any method in the class");
+	}
+	
+	@AfterClass
+	public void afterClass() {
+		System.out.println("After executing any method in the class");
+	}
+	
 	@Test
 	public void webLoginCarLoan() {
 		//selenium
@@ -22,7 +34,7 @@ public class Basics3 {
 		System.out.println("I will execute after every test method in basics3 class");
 	}
 	
-	@Test
+	@Test(groups= {"Smoke"})
 	public void mobileLoginCarLoan() {
 		//Appium
 		System.out.println("Mobile login car");
