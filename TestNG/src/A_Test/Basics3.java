@@ -45,7 +45,7 @@ public class Basics3 {
 		System.out.println("I am no 1");
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void mobileSignInCarLoan() {
 		//Appium
 		System.out.println("Mobile SignIn car");
@@ -57,7 +57,7 @@ public class Basics3 {
 		System.out.println("Mobile SignOut car");
 	}
 	
-	@Test
+	@Test(dependsOnMethods= {"webLoginCarLoan","mobileSignOutCarLoan"})
 	public void APICarLoan() {
 		//Rest API automation
 		System.out.println("APIlogincar");
