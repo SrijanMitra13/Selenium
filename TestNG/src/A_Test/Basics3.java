@@ -5,6 +5,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Basics3 {
@@ -18,10 +19,12 @@ public class Basics3 {
 		System.out.println("After executing any method in the class");
 	}
 	
+	@Parameters({"URL"})
 	@Test
-	public void webLoginCarLoan() {
+	public void webLoginCarLoan(String urlname) {
 		//selenium
 		System.out.println("weblogincar");
+		System.out.println(urlname);
 	}
 	
 	@BeforeMethod
@@ -51,7 +54,7 @@ public class Basics3 {
 		System.out.println("Mobile SignIn car");
 	}
 	
-	@Test
+	@Test(timeOut=4000)
 	public void mobileSignOutCarLoan() {
 		//Appium
 		System.out.println("Mobile SignOut car");
