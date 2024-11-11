@@ -53,12 +53,9 @@ INDEX VERSION 1.131+/Users/srijanmitra/Codes/Selenium/.metadata/.plugins/org.ecl
 3074151926.index
 4023054181.index
 4064196076.index
-2546278648.index
-3602833480.index
 4099257674.index
 1699389577.index
 3464032257.index
-2934461740.index
 3459593798.index
 166904737.index
 2291222554.index
@@ -127,14 +124,12 @@ INDEX VERSION 1.131+/Users/srijanmitra/Codes/Selenium/.metadata/.plugins/org.ecl
 202831853.index
 915603087.index
 523385652.index
-3687715120.index
 3839347778.index
 448410380.index
 3637689322.index
 4251992282.index
 1534908372.index
 664619103.index
-1590519455.index
 566620682.index
 3324089456.index
 3230935340.index

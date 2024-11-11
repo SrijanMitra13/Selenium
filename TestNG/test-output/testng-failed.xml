@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite thread-count="6" parallel="tests" name="Failed suite [Loan Department]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="https://rahulshettyacademy.com/practice-project"/>
+  <listeners>
+    <listener class-name="A_Test.Listeners"/>
+  </listeners>
+  <test thread-count="6" parallel="tests" name="Personal Loan(failed)">
+    <parameter name="URL" value="personalLoan.com"/>
     <classes>
-      <class name="A_Test.Basics3">
+      <class name="A_Test.Basics">
         <methods>
-          <include name="webLoginCarLoan"/>
-          <include name="mobileSignOutCarLoan"/>
-          <include name="beforeClass"/>
-          <include name="APICarLoan"/>
-          <include name="beforeEvery"/>
-          <include name="afterClass"/>
-          <include name="bfSuite"/>
-          <include name="afterEvery"/>
+          <include name="lastExecution"/>
+          <include name="demo"/>
+          <include name="afSuite"/>
         </methods>
-      </class> <!-- A_Test.Basics3 -->
+      </class> <!-- A_Test.Basics -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Personal Loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->

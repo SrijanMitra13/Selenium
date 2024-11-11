@@ -1,5 +1,6 @@
 package A_Test;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
@@ -14,6 +15,7 @@ public class Basics {
 	@Test
 	public void demo() {
 		System.out.println("Hello");
+		Assert.assertTrue(false);
 	}
 	
 	@AfterSuite
