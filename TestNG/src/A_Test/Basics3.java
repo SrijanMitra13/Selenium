@@ -5,6 +5,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -55,15 +56,39 @@ public class Basics3 {
 		System.out.println("Mobile SignIn car");
 	}
 	
-	@Test(timeOut=4000)
-	public void mobileSignOutCarLoan() {
+	@Test(dataProvider="getData")
+	public void mobileSignOutCarLoan(String username, String password) {
 		//Appium
 		System.out.println("Mobile SignOut car");
+		System.out.println(username);
+		System.out.println(password);
 	}
 	
 	@Test(dependsOnMethods= {"webLoginCarLoan","mobileSignOutCarLoan"})
 	public void APICarLoan() {
 		//Rest API automation
 		System.out.println("APIlogincar");
+	}
+	
+	@DataProvider
+	public Object[][] getData() {
+		//1st Combination - username password
+		//2nd 		"	- username password - no credit history
+		//3rd 		"	- fraudulent credit history
+		
+		Object[][] data = new Object[3][2];
+		//1st Set
+		data[0][0] = "firstsetusername";
+		data[0][1] = "password";
+		
+		//2nd Set
+		data[1][0] = "secondsetusername";
+		data[1][1] = "secondpassword";
+		
+		//3rd Set
+		data[2][0] = "thirdsetusername";
+		data[2][1] = "thirdpassword";
+		
+		return data;
 	}
 }
