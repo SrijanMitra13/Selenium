@@ -19,12 +19,13 @@ public class Basics3 {
 		System.out.println("After executing any method in the class");
 	}
 	
-	@Parameters({"URL"})
+	@Parameters({"URL","APIKey/username"})
 	@Test
-	public void webLoginCarLoan(String urlname) {
+	public void webLoginCarLoan(String urlname, String key) {
 		//selenium
 		System.out.println("weblogincar");
 		System.out.println(urlname);
+		System.out.println(key);
 	}
 	
 	@BeforeMethod
