@@ -25,14 +25,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="Maven"/>
 			<item value="opack"/>
 			<item value="MVN.MVN"/>
 		</list>
 		<list key="groupId">
+			<item value="Maven"/>
 			<item value="OrangeHrm"/>
 			<item value="MVN"/>
 		</list>
 		<list key="artifactId">
+			<item value="SeleniumFrameworkDesign"/>
 			<item value="Tangerine"/>
 			<item value="MVN"/>
 		</list>
