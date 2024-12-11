@@ -6,11 +6,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LandingPage {
+import maven.AbstractComponents.AbstractComponents;
+
+public class LandingPage extends AbstractComponents{
 	
 	WebDriver driver;
 	
 	public LandingPage(WebDriver driver) {
+		super(driver);
 		//initialization
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
